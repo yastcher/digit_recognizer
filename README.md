@@ -16,10 +16,15 @@ Kaggle Competition: [Digit Recognizer](https://www.kaggle.com/competitions/digit
 
 ```
 digit_recognizer/
+├── data/
+│   ├── train.csv
+│   ├── test.csv
+│   └── sample_submission.csv
 ├── digit_recognizer_baseline.ipynb    # Baseline решение
 ├── digit_recognizer_polar.ipynb       # Эксперимент с полярными координатами
 ├── digit_recognizer_augmentation.ipynb # Data Augmentation
 ├── pyproject.toml
+├── submission.csv
 └── README.md
 ```
 
@@ -62,18 +67,10 @@ CNN(
 
 ## Зависимости
 
-- Python 3.10+
+- Python 3.13+
 - PyTorch
 - torchvision
 - pandas
 - numpy
 - matplotlib
 - scikit-learn
-
-## Дальнейшие улучшения
-
-- [ ] Test Time Augmentation (TTA)
-- [ ] Ensemble нескольких моделей
-- [ ] Более глубокие архитектуры (ResNet, EfficientNet)
-- [ ] Cross-Validation
-- [ ] Pseudo-labeling
