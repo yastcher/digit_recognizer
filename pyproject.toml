@@ -1,7 +1,7 @@
 [project]
-name = "titanic"
+name = "digit-recognizer"
 version = "0.1.0"
-description = "Titanic Data - Basic EDA - Classification (Python)"
+description = "Digit recognition (Python)"
 requires-python = ">=3.13"
 dependencies = [
     "jupyterlab>=4.5.1",
@@ -12,6 +12,7 @@ dependencies = [
     "xgboost>=2.1.0",
     "lightgbm>=4.5.0",
     "torch",
+    "torchvision",
     "seaborn",
     "tqdm",
 ]
